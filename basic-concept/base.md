@@ -50,7 +50,7 @@
 
 #### k8s的组成
 
-![](E:\goWork\src\k8s\images\base.png)
+![](../images/base.png)
 
 k8s属于主从分布式架构，主要由Master node和Worker node组成，以及包括客户端命令行工具kubectl和其他附加项。
 
@@ -86,7 +86,7 @@ endpoint : 用于管理网络请求
 
 #### 创建pod的时序图
 
-![](E:\goWork\src\k8s\images\create_pod.png)
+![](../images/create_pod.png)
 
 1. 用户提交创建Pod的请求，可以通过API Server的REST API ，也可用Kubectl命令行工具，支持Json和Yaml两种格式；
 2. API Server 处理用户请求，存储Pod数据到Etcd；
